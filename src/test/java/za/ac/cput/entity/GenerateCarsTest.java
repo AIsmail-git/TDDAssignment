@@ -40,11 +40,8 @@ public class GenerateCarsTest {
     //Failing Test
     @Test
     void testFailure(){
-        try{
-             fail("Expected exception was not thrown");
-        } catch (Exception e) {
-            assertNotNull(e);
-        }
+             fail("Test Failed");
+            assertEquals(carA, carA);
     }
 
     //Timeout
