@@ -1,8 +1,7 @@
-package za.ac.cput.entity;
-
 /**
  * Kurtney Clyde Jantjies (218138105)
  */
+package za.ac.cput.entity;
 
 public class Car {
     private int numberPlate;
