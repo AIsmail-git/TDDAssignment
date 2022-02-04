@@ -1,3 +1,6 @@
+/**
+ * Kurtney Clyde Jantjies (218138105)
+ */
 package za.ac.cput.model;
 
 import za.ac.cput.entity.Car;

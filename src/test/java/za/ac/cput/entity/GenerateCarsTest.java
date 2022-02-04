@@ -1,12 +1,13 @@
+/**
+ * Kurtney Clyde Jantjies (218138105)
+ */
 package za.ac.cput.entity;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import za.ac.cput.model.GenerateCars;
-
 import java.util.concurrent.TimeUnit;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GenerateCarsTest {
@@ -40,7 +41,7 @@ public class GenerateCarsTest {
     @Test
     void testFailure(){
         try{
-           // fail("Expected exception was not thrown");
+             fail("Expected exception was not thrown");
         } catch (Exception e) {
             assertNotNull(e);
         }
@@ -60,6 +61,4 @@ public class GenerateCarsTest {
         //Checks if object's not identical
         assertNotSame(carA,carB, "Checks for object Identity between the two classed");
     }
-
-
 }
